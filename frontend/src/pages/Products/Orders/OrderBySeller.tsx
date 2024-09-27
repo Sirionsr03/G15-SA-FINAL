@@ -23,7 +23,7 @@ interface Product {
   SellerID?: number;
   OrderID?: number;
   Quantity?: number;
-  Status?: String
+  Status?: String;
 }
 
 interface Order {
@@ -204,10 +204,11 @@ const Index: React.FC = () => {
   ];
 
   return (
-    <div className="order">
+    <div className="orderseller">
       <h1 style={{ color: 'back', fontSize: '30px', margin: 0,marginTop: -175 ,marginLeft: 10}}>รายการคำสั่งซื้อ </h1>
       {contextHolder}
       <NavbarSeller/>
+      <h1 >รายการคำสั่งซื้อ</h1>
       <Table
         style={{width:"201.8vh"}}
         rowKey="ID"
