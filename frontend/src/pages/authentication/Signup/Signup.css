@@ -1,0 +1,42 @@
+
+.body {
+  width: 98.9vw;
+  height: 122.9vh;
+  background-color: #2e2f33;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -70px;
+}
+
+
+.card-signup{
+  background-color: #e2dfdf;
+  position: absolute;
+  left: 460px;
+  top: 40px;
+}
+
+.header{
+  margin-top: 5vh;
+}
+
+.signuppage-button{
+  margin-top: 3vh;
+  background-color: #ffa24c;
+}
+
+.signuppage-button.ant-btn:hover{
+  background-color: #ff8c1a !important;
+  border-color: #ff8c1a !important;
+}
+
+.cancel-button{
+  margin-left: 5vh;
+  background-color: #444;
+}
+
+.cancel-button.ant-btn:hover{
+  background-color: #333 !important;
+  border-color: #333 !important;
+}

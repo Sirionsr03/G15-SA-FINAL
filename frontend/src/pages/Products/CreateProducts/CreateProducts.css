@@ -1,0 +1,9 @@
+.bodycrate {
+  width: 100vw;
+  height: 102.83vh;
+  background-color: #2e2f33;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -90px;
+}
